@@ -16,11 +16,26 @@ public class Find_Largest_And_Smallest {
             arr[i] = num;
         }
 
-        Arrays.sort(arr);
+        // Arrays.sort(arr);
+
+        int max = arr[0];
+        int min = arr[0];
+
+        for(int i = 1 ; i<size; i++){
+            if(arr[i]>max){
+                max = arr[i];
+            }
+        }
+
+        for(int i = 1 ; i<size; i++){
+            if(arr[i]<min){
+                min = arr[i];
+            }
+        }
 
         System.out.println("Smallest element is: ");
-        System.out.println(arr[0]);
+        System.out.println(min);
         System.out.println("\nlargest element is: ");
-        System.out.println(arr[size -1]);
+        System.out.println(max);
     }
 }
