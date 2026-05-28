@@ -7,16 +7,22 @@ public class String_palindrome {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter your String: ");
-
+        
         String str = sc.nextLine();
-
+        
         String pal = "";
 
         for (int i = str.length() -1 ; i>=0 ; i--){
             pal += str.charAt(i);
         }
 
-        System.out.println(pal);
+        if(str.equals(pal)){
+            System.out.println("Palindrome");
+            
+        }else{
+            System.out.println("NOT Palindrome");
+
+        }
 
 
 
