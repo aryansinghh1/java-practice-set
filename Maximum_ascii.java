@@ -10,11 +10,10 @@ public class Maximum_ascii {
         char max = str.charAt(0);
 
         for (int i = 0; i < str.length(); i++) {
-            if(str.charAt(i) > max){
+            if (str.charAt(i) > max) {
                 max = str.charAt(i);
             }
         }
-
         System.out.print("max ascii: " + max);
     }
 }
