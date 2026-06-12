@@ -33,6 +33,7 @@ public class Majority_of_elements {
                 max = arr[i];
             }
         }
+        
 
         System.out.println("frequency of repeating element is: " + fre);
         System.out.println("max repeating element is: " + max);
