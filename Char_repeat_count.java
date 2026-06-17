@@ -6,9 +6,7 @@ public class Char_repeat_count {
 
         System.out.println("Enter your string: ");
 
-        String str = sc.nextLine();
-
-        str = str.toLowerCase();
+        String str = sc.nextLine().toLowerCase();
 
         // System.out.print(str);
 
